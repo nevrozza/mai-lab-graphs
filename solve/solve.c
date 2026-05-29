@@ -21,9 +21,9 @@ static int findMinDistance(const int dist[], const bool visited[], const int num
 }
 
 void deikstra(int graph[MAX_VERTICES][MAX_VERTICES], const int numVertices, const int startVertex) {
-    int dist[MAX_VERTICES];
-    bool visited[MAX_VERTICES];
-    int parents[MAX_VERTICES];
+    int dist[numVertices];
+    bool visited[numVertices];
+    int parents[numVertices];
 
     for (int i = 0; i < numVertices; i++) {
         dist[i] = INT32_MAX;

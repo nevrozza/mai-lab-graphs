@@ -80,7 +80,7 @@ int main(void) {
             }
         } else {
             numVertices = 5;
-            const int preset[MAX_VERTICES][MAX_VERTICES] = {
+            int preset[MAX_VERTICES][MAX_VERTICES] = {
                 {0, 10, 3, 0, 0},
                 {0, 0, 1, 2, 0},
                 {0, 4, 0, 8, 2},
