@@ -7,4 +7,6 @@ add_executable(graphs main.c
         utils/utils.c
         utils/utils.h
         solve/solve.c
-        solve/solve.h)
+        solve/solve.h
+        cli/cli.c
+        cli/cli.h)
